@@ -1,0 +1,106 @@
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 100px solid green;
+}
+
+  
+  [class^="light"] {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    animation:light 5s;
+    -moz-animation:light 5s infinite; /* Firefox */
+    -webkit-animation:light 5s infinite; /* Safari and Chrome */
+    z-index: 3;
+  }
+  
+  @-moz-keyframes light /* Firefox */
+  {
+    0%   {background:transparent;}
+    50%  {background:#ffd105;}
+    100%   {background:transparent;}
+  }
+  
+  @-webkit-keyframes light /* Safari and Chrome */
+  {
+    0%   {background:transparent;}
+    50%  {background:#ffd105;}
+    100%   {background:transparent;}
+  }
+  
+  .light1 {
+    top: 50px;
+    right: 5px;
+   }
+  
+  .light2 {
+    top: 60px;
+    left: 20px;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+  }
+  
+  .light3 {
+    top: 80px;
+    right: 15px;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+  }
+  
+  .light4 {
+    top: 120px;
+    left: 20px;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+  }
+  
+  .light5 {
+    top: 130px;
+    right: 35px;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+  }
+  
+  .light6 {
+    top: 165px;
+    left: 50px;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+  }
+  
+  .light7 {
+    top: 180px;
+    right: 50px;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+  }
+  
+  .light8 {
+    top: 180px;
+    left: 10px;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+  }
+  
+  .light9 {
+    top: 195px;
+    right: 20px;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+  }
+  
+  .light10 {
+    top: 190px;
+    left: 70px;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+  }
+  
+

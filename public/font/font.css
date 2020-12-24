@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Mountain Regular";
+    src: url("MountainsofChristmas-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Mountain Bold";
+    src: url("MountainsofChristmas-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Rochester";
+    src: url("Rochester-Regular.ttf");
+}
+
+@font-face {
+    font-family: "xmasstar";
+    src: url("MerryChristmasStar.ttf");
+}
+
+@font-face {
+    font-family: "poppins-semibold";
+    src: url("Poppins-SemiBold.ttf");
+}
+
+
+@font-face {
+    font-family: "poppins-reg";
+    src: url("Poppins-Regular.ttf");
+}
+
+
+.poppins-semibold{   
+    font-family: "poppins-semibold";
+}
+
+.poppins-regular{   
+    font-family: "poppins-reg";
+}
+
+.mont-reg {
+    font-family: "Mountain Regular";
+}
+
+.mont-bold {
+    font-family: "Mountain Bold";
+}
+
+.roch-reg {
+    font-family: "Rochester";
+}
+
+.xmas-star {
+    font-family: "xmasstar";
+}
