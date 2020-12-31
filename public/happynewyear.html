@@ -18,12 +18,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body style="font-family:'Nunito', sans-serif;">
-    <div class="fixed top-0 z-50 flex flex-col items-center justify-center w-full h-screen p-5 text-center text-white">
+    <div class="fixed top-0 z-50 flex flex-col items-center justify-center w-full h-screen p-5 text-center text-white" id="text">
        <div class="flex flex-col items-center max-w-sm">
         <p class="text-3xl font-bold">Happy New Year</p>
         <p class="mb-3 font-semibold text-8xl">2021</p>
         <p class="text-lg">May you fill your New Year with new adventures, accomplishments, and learnings!</p>
        </div>
+       <button onclick="hideText()" class="h-10 px-3 mt-5 border border-white rounded-md">Hide Text</button>
     </div>
 <!-- partial:index.partial.html -->
 <!-- SVG Spritesheet -->
@@ -141,5 +142,10 @@
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/Stage%400.1.4.js'></script>
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/MyMath.js'></script><script  src="js/happynewyear.js"></script>
 
+<script>
+    function hideText(){
+        document.getElementById("text").classList.toggle("hidden");
+    }
+</script>
 </body>
 </html>
